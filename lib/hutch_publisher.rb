@@ -4,8 +4,6 @@ require 'json'
 require 'securerandom'
 
 module HutchPublisher
-  VERSION = '0.1.0'
-
   class Error < StandardError
     attr_accessor :messages
 

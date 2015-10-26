@@ -1,10 +1,8 @@
 $:.unshift(File.join(File.dirname(__FILE__), 'lib'))
 
-require 'hutch_publisher'
-
 Gem::Specification.new do |spec|
   spec.name          = 'hutch_publisher'
-  spec.version       = HutchPublisher::VERSION
+  spec.version       = '0.1.0'
   spec.authors       = ['Eugenijus Radlinskas']
   spec.email         = ['eugene@bitlabs.com']
   spec.summary       = 'Hutch Publisher'
