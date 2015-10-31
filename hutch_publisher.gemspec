@@ -13,6 +13,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'hutch', '~> 0.19.0'
-  spec.add_dependency 'connection_pool', '~> 2.0.0'
+  spec.add_dependency 'hutch', '>= 0.19.0'
+  spec.add_dependency 'connection_pool', '>= 2.0.0'
 end
